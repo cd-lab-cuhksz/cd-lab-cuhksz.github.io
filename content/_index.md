@@ -8,8 +8,7 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        CD Lab
       image:
         filename: welcome.jpg
       text: |
