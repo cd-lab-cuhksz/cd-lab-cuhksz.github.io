@@ -35,7 +35,7 @@ featured: true # 是否为特色/重点出版物
 
 links:
 - name: "Pdf Download"
-  url: files/publication/Precision_Tracking_for_Nonminimum_Phase_LPTV_Systems_via_a_Lifted_Time_Stable_Inversion.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Precision_Tracking_for_Nonminimum_Phase_LPTV_Systems_via_a_Lifted_Time_Stable_Inversion.pdf
 url_pdf: https://ieeexplore.ieee.org/document/10921660
 url_code: ''
 url_dataset: ''

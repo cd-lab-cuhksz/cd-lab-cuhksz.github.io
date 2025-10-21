@@ -57,7 +57,8 @@ featured: false
 #   url: http://example.org
 links:
 - name: "Pdf Download"
-  url: files/publication/EmbodiedAgent_A_Scalable_Hierarchical_Approach_to_Overcome_Practical_Challenge_in_Multi-Robot_Control.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/EmbodiedAgent_A_Scalable_Hierarchical_Approach_to_Overcome_Practical_Challenge_in_Multi-Robot_Control.pdf
+  
 url_pdf: 'https://arxiv.org/pdf/2504.10030'
 url_code: 'https://github.com/HaronW/EmbodiedAgent'
 url_dataset: 'https://github.com/HaronW/EmbodiedAgent'

@@ -50,7 +50,7 @@ featured: false # 是否为特色/重点出版物
 
 links:
 - name: "Pdf Download"
-  url: files/publication/Journal_of_Field_Robotics-2025-Wan-Toward_Universal_Embodied_Planning_in_Scalable_Heterogeneous_Field_Robots.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Journal_of_Field_Robotics-2025-Wan-Toward_Universal_Embodied_Planning_in_Scalable_Heterogeneous_Field_Robots.pdf
 url_pdf: https://onlinelibrary.wiley.com/doi/10.1002/rob.22522
 url_code: ''
 url_dataset: ''

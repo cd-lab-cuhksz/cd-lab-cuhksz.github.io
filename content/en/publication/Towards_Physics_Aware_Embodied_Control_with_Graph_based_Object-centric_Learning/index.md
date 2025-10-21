@@ -47,7 +47,7 @@ featured: false # 是否为特色/重点出版物
 
 links:
 - name: "Pdf Download"
-  url: files/publication/Towards_Physics_Aware_Embodied_Control_with_Graph_based_Object-centric_Learning.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Towards_Physics_Aware_Embodied_Control_with_Graph_based_Object-centric_Learning.pdf
 url_pdf: https://dl.acm.org/doi/abs/10.1145/3765628
 url_code: ''
 url_dataset: ''

@@ -51,7 +51,7 @@ featured: false
 #   url: http://example.org
 links:
 - name: "Pdf Download"
-  url: files/publication/Stabilization_of_Underactuated_Non-Minimum_Phase_Wheeled-Biped_Robots_An_IDA-PBC_Approach.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Stabilization_of_Underactuated_Non-Minimum_Phase_Wheeled-Biped_Robots_An_IDA-PBC_Approach.pdf
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/11047429'
 url_code: ''
 url_dataset: ''

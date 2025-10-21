@@ -36,7 +36,7 @@ featured: false # 是否为特色/重点出版物
 
 links:
 - name: "Pdf Download"
-  url: files/publication/Lifted_time_stable_inversion_based_feedforward_control_for_linear_non-minimum_phase_systems.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Lifted_time_stable_inversion_based_feedforward_control_for_linear_non-minimum_phase_systems.pdf
 url_pdf: https://www.sciencedirect.com/science/article/abs/pii/S0005109824004734
 url_code: ''
 url_dataset: ''

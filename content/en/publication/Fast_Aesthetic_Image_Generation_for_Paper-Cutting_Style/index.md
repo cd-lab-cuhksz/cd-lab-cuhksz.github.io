@@ -55,7 +55,7 @@ featured: false
 #   url: http://example.org
 links:
 - name: "Pdf Download"
-  url: files/publication/Fast_Aesthetic_Image_Generation_for_Paper-Cutting_Style.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Fast_Aesthetic_Image_Generation_for_Paper-Cutting_Style.pdf
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/11139511'
 url_code: ''
 url_dataset: ''

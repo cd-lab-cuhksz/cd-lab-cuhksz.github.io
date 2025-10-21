@@ -45,7 +45,7 @@ featured: false
 #   url: http://example.org
 links:
 - name: "Pdf Download"
-  url: files/publication/Lifted_Time_Stable_Inversion_Based_High_Precision_Feedforward_Control_for_Non-minimum_Phase_Systems.pdf
+  url: https://github.com/cd-lab-cuhksz/cd-lab-cuhksz.github.io/blob/main/static/files/publication/Lifted_Time_Stable_Inversion_Based_High_Precision_Feedforward_Control_for_Non-minimum_Phase_Systems.pdf
 url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10886565'
 url_code: ''
 url_dataset: ''
