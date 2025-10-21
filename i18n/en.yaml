@@ -200,7 +200,7 @@
   translation: Professional Summary
 
 - id: user_profile_latest
-  translation: Latest
+  translation: ACADEMIC PUBLICATIONS
 
 # Countdown widget
 
@@ -409,3 +409,8 @@
 # Card metadata
 - id: trending
   translation: Trending
+
+
+# user defined
+- id: lab_members
+  translation: Lab Members

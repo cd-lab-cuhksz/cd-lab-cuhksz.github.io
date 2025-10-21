@@ -15,7 +15,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Embodied-AI Robotics
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
@@ -50,7 +50,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:jixiaoqiang@cuhk.edu.cn.org'
+    link: 'mailto:jixiaoqiang@cuhk.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen

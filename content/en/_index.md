@@ -14,7 +14,27 @@ sections:
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        The **CD Lab** has been a center of excellence for Artificial Intelligence theory research since its founding in 2021.
+
+  - block: markdown
+    content:
+      title: |
+        About our work
+      text: |
+        We are currently working on the following research:
+        
+        - **Stable AI Control Theory**
+
+        Developing stability-guaranteed data-driven control methods that systematically integrate learning and control, establishing a theoretical foundation for reliable AI operation in dynamic environments.
+        - **Physical Model Development**
+        
+        Investigating how embodied agents can learn and internalize physical models from data, enabling robots to effectively understand and learn the physical characteristics of the real world.
+        - **Embodied Control Systems**
+        
+        Researching whole-body dynamic stability control and adaptive generalization strategies, facilitated by physics-aware execution, to achieve more stable, practical, and physically consistent robotic behaviors.
+        - **Reliable Learning Control**
+        
+        Constructing safety-guaranteed learning control algorithms to enhance adaptability and generalization in complex environments, promoting the reliable deployment of intelligent control systems in real-world applications.
   
   - block: collection
     content:
