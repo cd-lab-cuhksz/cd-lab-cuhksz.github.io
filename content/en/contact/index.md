@@ -28,10 +28,10 @@ sections:
         # - 'Wednesday 09:00 to 10:00'
       # appointment_url: 'https://calendly.com'
       contact_links:
-       - icon: wifi
-         icon_pack: fas
-         name: Admissions Requirements
-         link: files/zhaosheng.pdf
+      #  - icon: wifi
+      #    icon_pack: fas
+      #    name: Admissions Requirements
+      #    link: files/zhaosheng.pdf
        - icon: envelope
          icon_pack: fas
          name: Send Email

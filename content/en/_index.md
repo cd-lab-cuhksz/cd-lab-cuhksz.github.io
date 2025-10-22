@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: hero
     content:
-      title: |
-        CD Lab
+      # title: |
+      #   CD Lab
       image:
         filename: icon.png
       text: |

@@ -32,6 +32,9 @@ zh:
       - name: 论文著作
         url: publication
         weight: 5
+      - name: 招生信息
+        url: admission
+        weight: 55
       - name: 与我们联系
         url: contact
         weight: 6
