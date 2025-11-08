@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    background: white;
+    min-height: calc(100vh - 100px);
+}
+
+header {
+    background-color: #546e7a;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-name {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+}
+
+.profile-header {
+    margin-bottom: 40px;
+}
+
+.profile-header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 18px 0; /* 增加垂直间距以配合更粗的横线 */
+    border-top: 3px solid #d1d5db; /* 加粗上横线 */
+    border-bottom: 3px solid #d1d5db; /* 加粗下横线 */
+}
+
+/* 让 profile header 内的名字文字颜色与导航栏背景一致 */
+.profile-header h1 span {
+    color: #546e7a;
+}
+
+.profile-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.profile-links {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Links in the profile header: always black and always underlined (including visited/active/focus/hover) */
+.profile-links a,
+.profile-links a:visited,
+.profile-links a:active,
+.profile-links a:focus,
+.profile-links a:hover {
+    color: #000; /* black */
+    text-decoration: underline; /* always underlined */
+}
+
+.content {
+    padding: 30px 40px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.content > .profile-header {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: block;
+}
+
+.content-body {
+    display: block; /* 改为block，让内部元素垂直堆叠 */
+}
+
+/* two-column layout: avatar on left, main info on right */
+.two-column {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.two-column .left-column {
+    flex: 0 0 260px; /* 固定左列宽度，防止头像占满过多 */
+}
+
+.two-column .right-column {
+    flex: 1 1 auto;
+}
+
+/* full-width sections below the two-column area */
+.full-width {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 1px solid #e0e0e0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.section h3 {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 20px 0 10px 0;
+}
+
+.section p {
+    margin-bottom: 15px;
+}
+
+.section ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
+
+.publication-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publication-list li {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.publication-list li:last-child {
+    border-bottom: none;
+}
+
+.pub-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.pub-authors {
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.pub-details {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.corresponding-note {
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #e5e7eb;
+    border-top: 1px solid #ddd;
+    padding: 0;
+}
+
+.footer-content {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 15px 40px;
+    text-align: right;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding-top: 80px;
+    }
+    
+    header {
+        padding: 15px 20px;
+    }
+    
+    .header-name {
+        font-size: 1.2rem;
+    }
+    
+    .content {
+        padding: 20px;
+    }
+    
+    .content-body {
+        flex-direction: column;
+    }
+    
+    .left-column {
+        margin-right: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-header h1 {
+        font-size: 2rem;
+    }
+}
