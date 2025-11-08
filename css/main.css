@@ -106,16 +106,36 @@ header {
 /* two-column layout: avatar on left, main info on right */
 .two-column {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch; /* 让两列高度一致 */
     gap: 40px;
 }
 
 .two-column .left-column {
-    flex: 0 0 260px; /* 固定左列宽度，防止头像占满过多 */
+    flex: 0 0 auto; /* 宽度自适应图像 */
+    max-width: 300px; /* 限制最大宽度，避免图像过大 */
+    display: flex;
 }
 
 .two-column .right-column {
     flex: 1 1 auto;
+}
+
+/* 让 two-column 内部的 section 占满高度 */
+.two-column .section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中内容 */
+}
+
+/* 让左侧头像高度匹配右侧内容 */
+.two-column .avatar {
+    width: auto; /* 宽度自适应 */
+    height: 100%; /* 高度填充容器 */
+    max-width: 100%;
+    border-radius: 4px;
+    object-fit: contain; /* 保持图像比例，不裁剪 */
+    border: 1px solid #e0e0e0;
 }
 
 /* full-width sections below the two-column area */
@@ -125,10 +145,10 @@ header {
 }
 
 .avatar {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto; /* 自适应高度，保持图像原始比例 */
     border-radius: 4px;
-    object-fit: cover;
+    object-fit: contain; /* 保持等比例，不裁剪 */
     border: 1px solid #e0e0e0;
 }
 
